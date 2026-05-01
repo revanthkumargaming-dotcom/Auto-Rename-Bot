@@ -13,7 +13,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
+    START_PIC   = os.environ.get("START_PIC", "")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6334669810').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001998560825") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003519955135"))
@@ -48,12 +48,12 @@ Use These Keywords To Setup Custom File Name
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
-    ABOUT_TXT = f"""<b>🤖 My Name :</b> <a href='https://t.me/AutoRenameXBot'>Auto Rename Bot ⚡</a>
+    ABOUT_TXT = f"""<b>🤖 My Name :</b> <a href='http://t.me/Gojoautorename_bot'>Auto Rename Bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :<b>Server :</b> <a href='https://render.com'>Render</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/TeluguAnimeZone'>Gojo Botz</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Owner_0000_bot'>Goo Developer</a>
     
 <b>♻️ Bot Made By :</b> @busters_ofcl"""
 
@@ -82,7 +82,7 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> """
+<b>🛍 UPI ID:</b> <code>notavailable</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     

@@ -7,9 +7,8 @@ from aiohttp import web
 from route import web_server
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHAT_ID = -999999999999
-pyrogram.utils.MIN_CHANNEL_ID = -1009999999999
-
+pyrogram.utils.MIN_CHAT_ID = -1001934693386
+pyrogram.utils.MIN_CHANNEL_ID = -1001934693386
 
 class Bot(Client):
 
@@ -53,5 +52,5 @@ Bot().run()
 
 # Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
+# Telegram Channel @Busters_ofcl
+# Developer @SATORO_GOJO_limitless

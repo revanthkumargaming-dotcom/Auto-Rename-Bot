@@ -1,12 +1,12 @@
 from pyrogram import Client, filters 
-from helper.database import madflixbotz
+from helper.database import busters_ofcl
 
 @Client.on_message(filters.private & filters.command('set_caption'))
 async def add_caption(client, message):
     if len(message.command) == 1:
        return await message.reply_text("**Give The Caption\n\nExample :- `/set_caption 📕Name ➠ : {filename} \n\n🔗 Size ➠ : {filesize} \n\n⏰ Duration ➠ : {duration}`**")
     caption = message.text.split(" ", 1)[1]
-    await madflixbotz.set_caption(message.from_user.id, caption=caption)
+    await bustersofcl.set_caption(message.from_user.id, caption=caption)
     await message.reply_text("**Your Caption Successfully Added ✅**")
    
 @Client.on_message(filters.private & filters.command('del_caption'))
@@ -51,5 +51,5 @@ async def addthumbs(client, message):
 
 # Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
+# Telegram Channel @busters_ofcl
+# Developer @Gojo

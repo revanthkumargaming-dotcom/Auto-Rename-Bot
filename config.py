@@ -18,9 +18,8 @@ class Config(object):
     FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001998560825") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003519955135"))
     
-    # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
-
+    # wes response configuration    
+WEBHOOK = os.environ.get("WEBHOOK", "False").lower() == "true"
 
 class Txt(object):
     # part of text configuration
